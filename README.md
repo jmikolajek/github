@@ -16,3 +16,13 @@ By default Git will create a branch called master when you create a new reposito
 ```cmd
 git config --global init.defaultBranch main
 ```
+
+~~~
+git init
+git add *
+git commit -m "Initial commmit"
+
+#Do I need to first create in on github?
+git remote add origin [url]
+git push origin main
+~~~
