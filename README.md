@@ -1,5 +1,5 @@
 # git
-
+[] - optional, <> - mandatory
 ## Configure Git
 
 ```sh
@@ -26,7 +26,7 @@ git add *
 git commit -m "Initial commmit"
 
 #Do I need to first create in on github and what url?
-git remote add origin [url] > is [] correct or should it be <>
+git remote add origin [url]  # is [] correct or should it be <>
 git push origin main
 ~~~
 
@@ -61,6 +61,19 @@ GitHub CLI automatically stores your Git credentials for you when you choose HTT
 ## Creating a repository
 ```
 gh repo create
+gh repo create organisation_name/repository_name
 ```
+
+
+
+to understand
+
+gh repo fork
+
+## Install
+vs code\
+git\
+github cli, desktop\
+sourcetree
 
 
